@@ -7,9 +7,9 @@ tasks:
       gp preview $(gp url 8000)
 ports:
   - port: 8000
-    onOpen: open-preview
+    onOpen: open-browser
   - port: 8080
-    onOpen: open-preview
+    onOpen: open-browser
 
 vscode:
   extensions:
